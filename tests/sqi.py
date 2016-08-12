@@ -1,0 +1,85 @@
+# -*- coding: utf-8 -*-
+from tests import HangulizeTestCase
+from hangulize.langs.sqi import Albanian
+
+
+class AlbanianTestCase(HangulizeTestCase):
+
+    lang = Albanian()
+
+    def test_people(self):
+        self.assert_examples({
+            'Ramiz Alia': '라미즈 알리아',
+            'Valon Behrami': '발론 베흐라미',
+            'Sali Berisha': '살리 베리샤',
+            'Agnes Gonxha Bojaxhiu': '아그네스 곤자 보야지우',
+            'Bujar Bukoshi': '부야르 부코시',
+            'Gjon Buzuku': '존 부주쿠',
+            'Gjergj Fishta': '제르지 피슈타',
+            'Lorik Cana': '로리크 차나',
+            'Eqrem Çabej': '에치렘 차베이',
+            'Adil Çarçani': '아딜 차르차니',
+            'Agim Çeku': '아김 체쿠',
+            'Emina Çunmulaj': '에미나 춘물라이',
+            'Leka Dukagjini': '레카 두카지니',
+            'Eliza Dushku': '엘리자 두슈쿠',
+            'Mit\'hat Frashëri': '미트하트 프라셔리',
+            'Simon Gjoni': '시몬 조니',
+            'Luigj Gurakuqi': '루이지 구라쿠치',
+            'Enver Hoxha': '엔베르 호자',
+            'Ismail Kadare': '이스마일 카다레',
+            'Dhimitër Kamarda': '디미터르 카마르다',
+            'Ibrahim Kodra': '이브라힘 코드라',
+            'Jakup Krasniqi': '야쿠프 크라스니치',
+            'Luan Krasniqi': '루안 크라스니치',
+            'Shefki Kuqi': '셰프키 쿠치',
+            'Vasil Laçi': '바실 라치',
+            'Riza Lushta': '리자 루슈타',
+            'Mirela Manjani': '미렐라 마냐니',
+            'Gjeke Marinaj': '제케 마리나이',
+            'Rexhep Meidani': '레제프 메이다니',
+            'Alfred Moisiu': '알프레드 모이시우',
+            'Fatos Nano': '파토스 나노',
+            'Behxhet Pacolli': '베흐제트 파촐리',
+            'Adrian Paçi': '아드리안 파치',
+            'Rexhep Qosja': '레제프 초시아',
+            'Ibrahim Rugova': '이브라힘 루고바',
+            'Fatmir Sejdiu': '파트미르 세이디우',
+            'Klodiana Shala': '클로디아나 샬라',
+            'Artim Shaqiri': '아르팀 샤치리',
+            'Xherdan Shaqiri': '제르단 샤치리',
+            'Gjergj Kastriot Skanderbeg': '제르지 카스트리오트 스칸데르베그',
+            'Hashim Thaçi': '하심 사치',
+            'Bamir Topi': '바미르 토피',
+            'Pashko Vasa': '파슈코 바사',
+        })
+
+    def test_places(self):
+        self.assert_examples({
+            'Berati': '베라티',
+            'Butrinti': '부트린티',
+            'Durrësi': '두러시',
+            'Elbasani': '엘바사니',
+            'Fieri': '피에리',
+            'Gjakova': '자코바',
+            'Gjilani': '질라니',
+            'Gjirokastra': '지로카스트라',
+            'Kaçaniku': '카차니쿠',
+            'Kavaja': '카바야',
+            'Korça': '코르차',
+            'Kruja': '크루야',
+            'Lezha': '레자',
+            'Lushnja': '루슈냐',
+            'Mitrovica': '미트로비차',
+            'Peja': '페야',
+            'Pogradeci': '포그라데치',
+            'Prishtina': '프리슈티나',
+            'Prizreni': '프리즈레니',
+            'Saranda': '사란다',
+            'Shkodra': '슈코드라',
+            'Shkumbini': '슈쿰비니',
+            'Shqipëria': '슈치퍼리아',
+            'Tirana': '티라나',
+            'Ulpiana': '울피아나',
+            'Vlora': '블로라',
+        })
