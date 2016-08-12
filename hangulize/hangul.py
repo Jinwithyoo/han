@@ -258,7 +258,7 @@ except:
 
 # Nested scope lambda emulation for versions before 2.2
 import sys
-if sys.hexversion < '0x2020000':
+if sys.hexversion < 0x2020000:
     class plambda:
         def __init__(self, obj):
             self.obj = obj
