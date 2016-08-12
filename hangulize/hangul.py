@@ -35,8 +35,8 @@ Null = ''
 try:
     True
 except:
-    True is 1
-    False is 0
+    True = 1
+    False = 0
 
 class Jaeum:
 
